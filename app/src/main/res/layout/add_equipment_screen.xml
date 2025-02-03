@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/uploadEquipmentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="162dp"
+            android:layout_weight="1"
+            android:text="Upload Equipment" />
+
+        <Button
+            android:id="@+id/uploadNameTagButton"
+            android:layout_width="wrap_content"
+            android:layout_height="164dp"
+            android:layout_weight="1"
+            android:text="Upload Tag" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="276dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/autoFillEquipmentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="231dp"
+            android:layout_weight="1"
+            android:text="Autofill Information" />
+
+        <Button
+            android:id="@+id/ManualFillEquipmentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="232dp"
+            android:layout_weight="1"
+            android:text="Manual Fill" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cancelAddEquipmentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel" />
+</LinearLayout>

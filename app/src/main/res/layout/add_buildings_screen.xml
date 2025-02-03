@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/BlankSpace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <ListView
+        android:id="@+id/listBuildingsView"
+        android:layout_width="match_parent"
+        android:layout_height="357dp" />
+
+    <TextView
+        android:id="@+id/editAddBuildingView"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:textSize="14pt"
+        android:text="Add Building:" />
+
+    <EditText
+        android:id="@+id/editTextAddBuilding"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="New Building" />
+
+    <Button
+        android:id="@+id/addBuildingButton"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:text="Add" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/BuildingSelectCancelButton"
+            android:layout_width="183dp"
+            android:layout_height="122dp"
+            android:layout_weight="1"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/generateReportButton"
+            android:layout_width="wrap_content"
+            android:layout_height="122dp"
+            android:layout_weight="1"
+            android:text="Generate Report" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/floorNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number:" />
+
+    <EditText
+        android:id="@+id/editTextFloorNumber"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:ems="10"
+        android:text="0"
+        android:inputType="number" />
+
+
+
+    <TextView
+        android:id="@+id/addFloorDesc"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:text="Description" />
+
+    <EditText
+        android:id="@+id/editTextFloorName"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Basement" />
+
+    <Button
+        android:id="@+id/UploadFloorPlanButton"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:text="Upload Floor Plan" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/CancelAddFloorButton"
+            android:layout_width="210dp"
+            android:layout_height="180dp"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/SaveFloorButton"
+            android:layout_width="match_parent"
+            android:layout_height="182dp"
+            android:text="Continue" />
+
+    </LinearLayout>
+
+</LinearLayout>

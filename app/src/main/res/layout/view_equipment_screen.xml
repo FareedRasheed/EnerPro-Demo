@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/EquipmentListView"
+        android:layout_width="match_parent"
+        android:layout_height="456dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancelViewEquipmentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="137dp"
+            android:layout_weight="1"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/addEquipmentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="136dp"
+            android:layout_weight="1"
+            android:text="Add Equipment" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/generateEquipmentAnalysisButton"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:text="Generate Optimization Report" />
+</LinearLayout>

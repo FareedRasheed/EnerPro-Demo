@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/floorListView"
+        android:layout_width="match_parent"
+        android:layout_height="478dp" />
+
+    <Button
+        android:id="@+id/addFloorButton"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:text="ADD" />
+
+    <Button
+        android:id="@+id/cancelAddFloorButton"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:text="Cancel" />
+</LinearLayout>

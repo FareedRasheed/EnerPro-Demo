@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/BlankSpace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textViewAuditName"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Project Name:" />
+
+    <EditText
+        android:id="@+id/editTextAuditName"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="MyAudit" />
+
+    <TextView
+        android:id="@+id/textViewAuditDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description" />
+
+    <EditText
+        android:id="@+id/editTextAuditDescription"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="My First Audit" />
+
+    <TextView
+        android:id="@+id/textViewAuditDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date:" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="01/27/2025" />
+
+    <TextView
+        android:id="@+id/textViewClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Client" />
+
+    <EditText
+        android:id="@+id/editTextClient"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="John Doe" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/AddAuditCancel"
+            android:layout_width="9dp"
+            android:layout_height="156dp"
+            android:layout_weight="1"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/AddAuditSave"
+            android:layout_width="wrap_content"
+            android:layout_height="156dp"
+            android:layout_weight="1"
+            android:text="Continue" />
+    </LinearLayout>
+
+</LinearLayout>
