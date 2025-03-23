@@ -1,13 +1,10 @@
-Enerpro is an HVAC and energy auditing software designed for consultants to streamline on-site data collection.
+Enerpro is an HVAC and energy auditing software built to assist consultants with on-site data collection. 
+Typically during an on-site HVAC or energy audit, a consultant will take notes by hand before digitally combining their notes later at their desk.
+Enerpro aims to accelerate the consulting process by offering real-time data collection and organization for site information.
 
-Traditionally, consultants take handwritten notes during HVAC or energy audits and later compile them digitally at their desks. Enerpro accelerates this process by enabling real-time data collection and organization directly on-site.
+This demo was built as a quick MVP prototype to showcase the concept of our idea. It was used during meetings with potential clients and consulting firms so we could validate our idea and flesh out our understanding on the problem. This demo was built using kotlin and android studio to showcase the organization of data and the collection process. 
 
-This demo served as a minimum viable product (MVP) to validate our concept in meetings with potential clients and consulting firms. While it offers limited functionality, it effectively demonstrates our approach to data organization and collection during pitches. It was developed in Android Studio as part of a Cornerstone, 10-day founders challenge under Velocity and the University of Waterloo. 
+Moving forward, we are planning to integrate real-time object detection to analyze and organize pieces of equipment during the consulting process.
+Additionally, we are exploring the possibility of developing AI to analyze engineering drawings of site maps to visually organize data.
 
-Enerpro is an ongoing project, and we’re continuously improving it.
-
-Future Developments:
-Real-time Object Detection – Automatically identify and categorize equipment during audits.
-AI-Powered Site Map Analysis – Extract insights from engineering drawings to visually organize data.
-
-Stay tuned for updates!
+Enerpro is an ongoing project developed by my brother and I. Between school and work we are continuely making improvements so stay tuned!
